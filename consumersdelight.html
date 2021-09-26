@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="consumersdelight.css">
+    <head>
+        <title>
+CONSUMERS DELIGHT
+        </title>
+    </head>
+    <body>
+        <main>
+            <h1>
+                Consumers delight is an inquisitory platform designed to get
+                feedbacks from all our customers so as to give them maximum
+                satisfaction.
+            </h1>
+            <p>
+              Our company works hard to provide extreme satisfaction for all our customers and
+              to do that we create these surveys to get your needs in order to attend to them.
+            </p>
+            <div class="myriad">
+            <label for="form">
+                To help us understand your needs, fill in the form starting with your name
+            </label><br>
+                <input id="name" type="text" placeholder="Type your name here" required><br>
+                <input id="email" type="email" placeholder="Enter your email" name="email" required><br>
+                <input id="age" type="number" placeholder="Enter your age" name="age" min="11" max="99" required><br>
+                <input id="address" type="text" placeholder="Enter your address" name="address" required><br>
+            </div>
+            <p>Tell us your satisfaction level on our products</p>    
+           <select id="dropdown">
+               <option value="bad">Bad</option>
+               <option value="worst service provider">worst service provider</option>
+               <option value="not bad">not bad</option>
+               <option value="good">good</option>
+               <option value="great service provider">great service provider</option>
+           </select><br>
+
+           <div class="divtext">
+            <h1 id="question"></h1><br>
+               <form>
+           <input type="checkbox" id="question1" name="question"  value="delivery-speed" >
+         <label for="delivery">Delivery speed</label><br>
+           <input id="question2" name="question" type="checkbox" value="quality-of-goods">
+           <label for="quality">Quality of goods</label><br>
+           <input id="question3" name="question" type="checkbox" value="customer-care">
+           <label for="customer">Customer care</label><br>
+           <input id="question4" name="question" type="checkbox" value="price-reduction">
+           <label for="price">Price reduction</label><br>
+           <input id="question5" name="question" type="checkbox" value="payment-methods">
+           <label for="payment">Payment methods</label><br>
+        </form>
+        </div>
+        <div class="r">
+            <P>What is your highest level of education</P>
+            <input id="elementary-grade" type="radio" name="grade" value="elementary-grade">
+            <label for="elementary-grade">Elementary grade</label><br>
+            <input id="middle-grade" type="radio" name="grade" value="middle-grade">
+            <label for="middle-grade">Middle grade</label><br>
+            <input id="highschool" type="radio" name="grade" value="highschool">
+            <label for="highschool">Highschool</label><br>
+            <input id="university" type="radio" name="university" value="university">
+            <label for="university">University</label><br>
+            <input id="graduate" type="radio" name="graduate" value="graduate">
+            <label for="graduate">Graduate</label><br>
+        </div>
+        </main>
+        <a href="#" class="previous">&laquo;Previous</a>
+        <a href="#" class="next">Next&raquo;</a>
+
+        <a href="#" class="previous round">&#8249;</a>
+        <a href="#" class="next round">&#8250;</a>
+    </body>
+    <script src="consumersdelight.js"></script>
+</html>

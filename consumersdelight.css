@@ -1,0 +1,21 @@
+.divtext input[type="checkbox"] {
+ margin: 20px;
+ background-color: red;
+    
+}
+label {
+    color: goldenrod;
+    background-color:black;
+}
+.r input[type="radio"] {
+    margin: 20px;
+    background-color: red;
+       
+   }
+   .myriad input {
+       margin: 0px;
+       display: flex;
+       background-color: skyblue;
+       width: 200px;
+       height: 30px;
+   }
