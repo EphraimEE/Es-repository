@@ -1,0 +1,19 @@
+#buyer{
+    position: relative;
+    left: 50%;
+    background-color: aliceblue;
+    width: 20px;
+    height: 200px;
+    border: 2px solid red;
+}
+.buyer{
+    background-color: blue;
+}
+main{
+    position: relative;
+    text-align: center;
+    border: 2px solid blueviolet;
+    min-width: 320px;
+    max-width: fit-content;
+    padding-left: 50%;
+}

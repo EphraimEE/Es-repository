@@ -1,0 +1,49 @@
+<main id="main">
+  <h1 id="title">Mrs. Bellatrix Lestrange</h1>
+  <p>The lady in harry potter</p>
+  <figure id="img-div">
+    <img
+      id="image"
+      src="https://cdn.dribbble.com/users/3021956/screenshots/15021760/media/7b24eb63801c2cb6e29dcbc62e413d1a.jpg"
+      alt="Mrs. Bellatrix Lestrange"
+    />
+    <figcaption id="img-caption">
+      Mrs. Bellatrix Lestrange, ally of Voldemort
+    </figcaption>
+  </figure>
+  <section id="tribute-info">
+    <h3 id="headline">Here's a time line of Mrs. Bellatrix Lestrange's life:</h3>
+    <ul>
+      <li><strong>1951</strong> - Born in Black manor, Britain.</li>
+      <li>
+        <strong>1962</strong> - Got accepted in Hogwarts and was sorted  into Slytherin house.
+      </li>
+      <li>
+        <strong>1968</strong> -Graduated from Hogwarts.
+      </li>
+      <li>
+        <strong>1970-1981</strong> - Participated in the first wizarding war.
+      </li>
+      <li>
+        <strong>1996</strong> - Escaped from Azkaban.
+      </li>
+      <li>
+        <strong>1997</strong> - Gave birth to her and Voldemort's daughter "Delphini"
+      </li>
+ 
+      <li><strong>1998</strong> - dies at the battle of Hogwarts.</li>
+    </ul>
+      <p>
+        Bellatrix lived and died as a devout follower of her master ,"Voldemort".
+    </p>
+    <h3>
+      To know more about Bellatrix, visit
+      <a
+        id="tribute-link"
+        href="https://en.wikipedia.org/wiki/Bellatrix_Lestrange"
+        target="_blank"
+        >Wikipedia entry</a
+      >.
+    </h3>
+  </section>
+</main>

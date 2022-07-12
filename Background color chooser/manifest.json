@@ -1,0 +1,14 @@
+{
+    "name": "Background color chooser",
+    "author": "Ephraim Edison",
+    "description": "Choose the color of your preference",
+    "version": "3.0.4",
+    "manifest_version": 3,
+    "background": {
+        "background page": ["background.js", "background.css", "background.html"]
+    },
+    "permissions": ["activeTab", "storage", "background"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
