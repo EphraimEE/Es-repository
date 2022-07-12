@@ -1,0 +1,42 @@
+.reg{
+    background-color: lightblue;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+
+}
+body{
+    background-color: aliceblue;
+}
+h1{
+    color: darkblue;
+    font-style: oblique;
+    font-size: 60px;
+}
+h2{
+    color: blue;
+}
+form{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h3{
+    color: darkgreen;
+}
+a{
+    color: dodgerblue;
+}
+.about{
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+#slogan{
+    color: cadetblue;
+    background-color: goldenrod;
+    width: 500px;
+    font-size: 30px;
+}
