@@ -1,0 +1,27 @@
+body{
+    background-color: silver;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 100%;
+    height: 200px;
+}
+input{
+    border: 1px solid blue;
+    width: 10%;
+    justify-items: center;
+    align-items: center;
+}
+
